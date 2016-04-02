@@ -1,3 +1,4 @@
+'use strict';
 /**
  * provide all needed entries for developers to use this addon
 
@@ -10,6 +11,9 @@
  * @author Marcellin<nmarcellin2@gmail.com>
  * @since 04-01-2016
  */
+
+const RunnerFactory = require('./src/factories/RunnerFactory');
+
 module.exports = { // index.js
   /**
    * instantiate the custom task runner, this comes from a set of runners that do custom work
@@ -20,7 +24,8 @@ module.exports = { // index.js
    * @note this method is used only if you want to call custom task runners
    */
   initTaskRunner: function(runnerType, options) {
-    return String('NOT implemented yet');
+    //@TODO create at least one custom runner 'SLACK'
+    return RunnerFactory.getRunner(runnerType, options);
   },
 
   /**
@@ -29,17 +34,18 @@ module.exports = { // index.js
    * @return { taskRunner instance } pointer to this task runner
    */
   initDefaultRunner: function(options) {
-    return String('NOT implemented yet');
+    return RunnerFactory.getRunner('DEFAULT', options);
   },
 
   /**
-   *
-   * default task runner
-   * @param definition { function, arguments } the function to be executed and the values used as parameters to this function
+   * Convinient helper: create task without going through a runner
+   * @param definition { function, arguments } the function to be executed and the values used as parameters to this function @TODO
+   * @param args { function, arguments } the function to be executed and the values used as parameters to this function @TODO
+   * @param context { function, arguments } the function to be executed and the values used as parameters to this function @TODO
    * i.e. running "start" will be the same as calling "function( arguments )"
    * @return returns the name/id used to start the task
    */
-  defineTask: function(definition) {
+  defineTask: function(definition, args, context) {
     return String('NOT implemented yet');
   },
 

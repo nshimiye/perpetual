@@ -23,11 +23,14 @@ describe('#initTaskRunner', function() {
   });
 
   // returns null (if no inputs are provided), null (if no inputs are provided)
-  it('does not create anything if improper runnerType or options param are provided', function() {
+  it('provide a null output if improper runnerType or options param are provided', function() {
 
     expect(
       initTaskRunner('NON_EXISTING_TYPE', {})
     ).to.be.an.instanceof(TaskRunner);
+    expect(
+      initTaskRunner('NON_EXISTING_TYPE', {})
+    ).to.be.null;
 
   });
 

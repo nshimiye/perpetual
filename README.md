@@ -1,7 +1,7 @@
-# perpetual
+# perpetual-yas
 Perform a task periodically
 
-This is just another version of *setInterval*
+This is just another version of *setInterval*, [ yas ] for yet Another SetInterval.
 
 ## use cases
 * Periodically update a token bearer from a third party service.
@@ -14,7 +14,7 @@ This is just another version of *setInterval*
 
 ## Installation
 ```bash
-  npm install perpetual --save
+  npm install perpetual-yas --save
 ```
 
 ## Usage

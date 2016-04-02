@@ -22,7 +22,7 @@ This is just another version of *setInterval*. yas is short for yet Another SetI
 Below is a set of step you will need to follow in order to successfully run a periodic task.
 ```javascript
 // Initialize the task runner
-let perpetual = require('perpetual');
+let perpetual = require('perpetual-yas');
 let runnerInstance = perpetual.initDefaultRunner();
 
 // Use the runner to define a task

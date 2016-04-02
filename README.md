@@ -1,5 +1,6 @@
 # perpetual-yas
 Perform a task periodically
+[![Build Status](https://travis-ci.org/nshimiye/perpetual.svg?branch=master)](https://travis-ci.org/nshimiye/perpetual)
 
 This is just another version of *setInterval*. yas is short for Yet Another SetInterval.
 

@@ -5,8 +5,10 @@
  */
 let expect = require('chai').expect,
     perpetual = require('../../index');
+let TaskRunner = require('../../src/main/TaskRunner');
 let initTaskRunner = perpetual.initTaskRunner,
     initDefaultRunner = perpetual.initDefaultRunner;
+
 
 // test 1. => testing initTaskRunner
 describe('#initTaskRunner', function() {

@@ -7,6 +7,9 @@ This is just another version of *setInterval*. yas is short for Yet Another SetI
 * Periodically update a token bearer from a third party service.
 * Test a REST API from time to time to make sure it's performance is as intact as it was when the API was created.
 * Train a machine learning model from time to time.
+* Create daily report on slack messages your team send to each other.
+  * most frequent topic.
+  * percentage of happy vs unhappy messages.
 
 ## Dependancies
 * node v4.4.2 LTS

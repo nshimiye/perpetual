@@ -1,7 +1,7 @@
 # perpetual-yas
 Perform a task periodically
 
-This is just another version of *setInterval*, [ yas ] for yet Another SetInterval.
+This is just another version of *setInterval*. yas is short for yet Another SetInterval.
 
 ## use cases
 * Periodically update a token bearer from a third party service.

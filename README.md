@@ -26,9 +26,11 @@ let perpetual = require('perpetual');
 let runnerInstance = perpetual.initDefaultRunner();
 
 // Use the runner to define a task
-let args = [12345678]; // argument
-function printElapsed(initial){ console.log(' Time is', Date.now() - initial); } // function to run when task starts
-runnerInstance.defineTask(printElapsed, args);
+let args = [12345678]; // arguments
+function printElapsed(initial) { // function to run when task starts
+  console.log('Time is ', Date.now() - initial); 
+}
+let taskId = runnerInstance.defineTask(printElapsed, args);
 
 // Use the runner to start task
 runnerInstance.start(taskId);

@@ -1,5 +1,5 @@
 {
-  "name": "perpetual",
+  "name": "perpetual-yas",
   "version": "1.0.0-beta.1",
   "description": "Perform a task periodically",
   "main": "index.js",

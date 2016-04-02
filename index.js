@@ -39,7 +39,7 @@ module.exports = { // index.js
    * i.e. running "start" will be the same as calling "function( arguments )"
    * @return returns the name/id used to start the task
    */
-  definedTask: function(definition) {
+  defineTask: function(definition) {
     return String('NOT implemented yet');
   },
 

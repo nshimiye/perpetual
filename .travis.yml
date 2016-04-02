@@ -5,5 +5,5 @@ node_js:
   - "5"
 
 script:
-  - "`npm bin`/jshint index.js src"
-  - "npm test --coverage"
+  - "node `npm bin`/jshint index.js src"
+  - "node `npm bin`/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --recursive && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"

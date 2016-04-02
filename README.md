@@ -13,14 +13,14 @@ This is just another version of *setInterval*
 * npm 2.15.1
 
 ## Installation
-```
+```bash
   npm install perpetual --save
 ```
 
 ## Usage
 
 Below is a set of step you will need to follow in order to successfully run a periodic task.
-```
+```javascript
 // Initialize the task runner
 let perpetual = require('perpetual');
 let runnerInstance = perpetual.initDefaultRunner();
@@ -40,7 +40,7 @@ runnerInstance.stop(taskId);
 
 
 ## Tests
-```
+```bash
   npm test
 ```
 ## Contributing

@@ -1,3 +1,4 @@
+/* jshint node: true */
 'use strict';
 /**
  * provide all needed entries for developers to use this addon

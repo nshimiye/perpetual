@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "4.4.2"
+  - "4"
+  - "5"
+
+script:
+  - `npm bin`/jshint index.js src
+  - npm test
+  - npm test --coverage

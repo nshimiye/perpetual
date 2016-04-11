@@ -3,6 +3,20 @@ Perform a task periodically
 [![Build Status](https://travis-ci.org/nshimiye/perpetual.svg?branch=master)](https://travis-ci.org/nshimiye/perpetual)
 [![Coverage Status](https://coveralls.io/repos/github/nshimiye/perpetual/badge.svg?branch=master)](https://coveralls.io/github/nshimiye/perpetual?branch=master)
 
+
+[![Waterlock][waterlock-image]][waterlock-url]
+-----------------------------------------------
+
+[![Gitter][gitter-image]][gitter-url]
+
+[![Inline docs][inch-image]][inch-url]
+
+| [![Build Status][travis-image]][travis-url] | [![NPM version][npm-version-image]][npm-url] | [![NPM downloads][npm-downloads-image]][npm-url] | [![Dependency Status][dependency-image]][dependency-url] |
+| ------- | ------- | ------- | ------- |
+| [![Coverage Status][coverage-image]][coverage-url] | [![Code Climate][climate-image]][climate-url] | [![Gittip][gittip-image]][gittip-url] | [![MIT License][license-image]][license-url]
+
+
+
 This is just another version of *setInterval*. yas is short for Yet Another SetInterval.
 
 ## use cases

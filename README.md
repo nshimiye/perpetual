@@ -72,3 +72,7 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 ## Release History
 
 * 1.0.0-beta.1 Initial release
+
+
+[travis-image]: https://travis-ci.org/nshimiye/perpetual.svg?branch=master
+[travis-url]: https://travis-ci.org/nshimiye/perpetual

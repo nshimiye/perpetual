@@ -71,8 +71,8 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 [travis-image]: https://travis-ci.org/nshimiye/perpetual.svg?branch=master
 [travis-url]: https://travis-ci.org/nshimiye/perpetual
 
-[dependency-image]: http://img.shields.io/gemnasium/waterlock/waterlock.svg?style=flat
-[dependency-url]: https://gemnasium.com/waterlock/waterlock
+[dependency-image]: https://gemnasium.com/badges/github.com/nshimiye/perpetual.svg?style=flat
+[dependency-url]: https://gemnasium.com/github.com/nshimiye/perpetual
 
 [coverage-image]: https://coveralls.io/repos/github/nshimiye/perpetual/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/nshimiye/perpetual?branch=master

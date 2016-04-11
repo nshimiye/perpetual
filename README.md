@@ -83,7 +83,7 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 
 
-
 [npm-url]: https://www.npmjs.com/package/perpetual-yas
-[npm-version-image]: https://badge.fury.io/js/perpetual-yas.svg?style=flat
+[npm-version-image-saved]: https://badge.fury.io/js/perpetual-yas.svg?style=flat
+[npm-version-image]: https://img.shields.io/npm/v/npm.svg?maxAge=2592000
 [npm-downloads-image]: http://img.shields.io/npm/dm/waterlock.svg?style=flat

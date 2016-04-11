@@ -87,5 +87,8 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 [npm-version-image]: https://badge.fury.io/js/perpetual-yas.svg?style=flat
 [npm-downloads-image]: http://img.shields.io/npm/dm/waterlock.svg?style=flat
 
+[climate-image]: https://codeclimate.com/github/nshimiye/perpetual/badges/gpa.svg
+[climate-url]: https://codeclimate.com/github/nshimiye/perpetual
+
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [license-url]: LICENSE

@@ -2,7 +2,7 @@
 Perform a task periodically
 
 
-[![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![MIT License][license-image]][license-url]
+[![NPM version][npm-version-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![NPM downloads][npm-downloads-image]][npm-url] [![MIT License][license-image]][license-url]
 -----------------------------------------------
 
  [![Build Status][travis-image]][travis-url] [![Coverage Status][coverage-image]][coverage-url] [![Code Climate][climate-image]][climate-url] 

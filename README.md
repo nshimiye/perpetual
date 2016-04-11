@@ -81,7 +81,7 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 [npm-url]: https://www.npmjs.com/package/perpetual-yas
 [npm-version-image]: https://badge.fury.io/js/perpetual-yas.svg?style=flat
-[npm-downloads-image]: https://img.shields.io/badge/downloads-1.0.0--beta.3-yellowgreen.svg?style=flat
+[npm-downloads-image]: https://img.shields.io/badge/downloads-64-yellowgreen.svg?style=flat
 
 [climate-image]: https://codeclimate.com/github/nshimiye/perpetual/badges/gpa.svg
 [climate-url]: https://codeclimate.com/github/nshimiye/perpetual

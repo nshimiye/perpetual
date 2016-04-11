@@ -1,7 +1,13 @@
 # perpetual-yas
 Perform a task periodically
-[![Build Status](https://travis-ci.org/nshimiye/perpetual.svg?branch=master)](https://travis-ci.org/nshimiye/perpetual)
-[![Coverage Status](https://coveralls.io/repos/github/nshimiye/perpetual/badge.svg?branch=master)](https://coveralls.io/github/nshimiye/perpetual?branch=master)
+
+
+[![NPM version][npm-version-image]][npm-url] [![Dependency Status][dependency-image]][dependency-url] [![NPM downloads][npm-downloads-image]][npm-url] [![MIT License][license-image]][license-url]
+-----------------------------------------------
+
+ [![Build Status][travis-image]][travis-url] [![Coverage Status][coverage-image]][coverage-url] [![Code Climate][climate-image]][climate-url] 
+
+
 
 This is just another version of *setInterval*. yas is short for Yet Another SetInterval.
 
@@ -58,3 +64,25 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 ## Release History
 
 * 1.0.0-beta.1 Initial release
+
+
+[travis-image]: https://travis-ci.org/nshimiye/perpetual.svg?branch=master
+[travis-url]: https://travis-ci.org/nshimiye/perpetual
+
+[dependency-image]: https://gemnasium.com/badges/github.com/nshimiye/perpetual.svg?style=flat
+[dependency-url]: https://gemnasium.com/github.com/nshimiye/perpetual
+
+[coverage-image]: https://coveralls.io/repos/github/nshimiye/perpetual/badge.svg?branch=master
+[coverage-url]: https://coveralls.io/github/nshimiye/perpetual?branch=master
+
+
+
+[npm-url]: https://www.npmjs.com/package/perpetual-yas
+[npm-version-image]: https://badge.fury.io/js/perpetual-yas.svg?style=flat
+[npm-downloads-image]: https://img.shields.io/badge/downloads-64-yellowgreen.svg?style=flat
+
+[climate-image]: https://codeclimate.com/github/nshimiye/perpetual/badges/gpa.svg
+[climate-url]: https://codeclimate.com/github/nshimiye/perpetual
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]: LICENSE

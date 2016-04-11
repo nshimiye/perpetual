@@ -80,3 +80,10 @@ Add unit tests for any new or changed functionality. Lint and test your code.
 
 [coverage-image]: https://coveralls.io/repos/github/nshimiye/perpetual/badge.svg?branch=master
 [coverage-url]: https://coveralls.io/github/nshimiye/perpetual?branch=master
+
+
+
+
+[npm-url]: https://www.npmjs.com/package/perpetual-yas
+[npm-version-image]: https://badge.fury.io/js/perpetual-yas.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/waterlock.svg?style=flat

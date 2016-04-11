@@ -2,14 +2,10 @@
 Perform a task periodically
 
 
-[![Waterlock][waterlock-image]][waterlock-url]
+[![NPM version][npm-version-image]][npm-url]
 -----------------------------------------------
 
-[![Gitter][gitter-image]][gitter-url]
-
-[![Inline docs][inch-image]][inch-url]
-
-| [![Build Status][travis-image]][travis-url] | [![NPM version][npm-version-image]][npm-url] | [![NPM downloads][npm-downloads-image]][npm-url] | [![Dependency Status][dependency-image]][dependency-url] |
+| [![Build Status][travis-image]][travis-url] | [![NPM downloads][npm-downloads-image]][npm-url] | [![Dependency Status][dependency-image]][dependency-url] |
 | ------- | ------- | ------- | ------- |
 | [![Coverage Status][coverage-image]][coverage-url] | [![Code Climate][climate-image]][climate-url] | [![MIT License][license-image]][license-url]
 

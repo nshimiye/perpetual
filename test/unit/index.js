@@ -1,3 +1,4 @@
+/*jshint mocha:true */
 'use strict';
 /*
  * test the module's index file ( <root-folder>/index.js )

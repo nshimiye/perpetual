@@ -20,12 +20,10 @@ class RunnerFactory {
     switch (runnerType) {
       case 'DEFAULT':
         return Default.runner(options);
-
-        break;
+        // break;
       case 'SLACK':
         return Slack.runner(options);
-
-        break;
+        // break;
       default:
         return Default.runner(options);
 

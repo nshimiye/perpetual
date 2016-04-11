@@ -4,7 +4,8 @@
   "description": "Perform a task periodically",
   "main": "index.js",
   "scripts": {
-    "test": "node `npm bin`/istanbul test `npm bin`/_mocha -- --recursive"
+    "test": "node `npm bin`/istanbul test `npm bin`/_mocha -- --recursive",
+    "jshint": "node `npm bin`/jshint index.js src"
   },
   "repository": {
     "type": "git",
@@ -29,9 +30,11 @@
     "istanbul": "^0.4.2",
     "jshint": "^2.9.1",
     "mocha": "^2.4.5",
-    "mocha-lcov-reporter": "^1.2.0"
-  },
-  "dependencies": {
+    "mocha-lcov-reporter": "^1.2.0",
     "coveralls": "^2.11.9"
+  },
+  "engines": {
+    "node": ">= 4.4.x",
+    "npm": ">= 2.15.x"
   }
 }

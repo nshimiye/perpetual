@@ -4,9 +4,10 @@
  * DefaultRunner provides a singleton of itself
  */
 
- const TaskRunner = require('../../main/TaskRunner');
+const TaskRunner = require('../../main/TaskRunner');
 
  // const _taskRunner = Symbol('taskRunner');
+ // @TODO more reserch is needed on how to create a static variable in JavaScript
 let _taskRunner = null;
 
 class DefaultRunner extends TaskRunner {
@@ -16,8 +17,8 @@ class DefaultRunner extends TaskRunner {
     super(options || {});
   }
 
-  static get taskRunner() { return _taskRunner }; // getter
-  static set taskRunner(value) { _taskRunner = value }; // setter
+  static get taskRunner() { return _taskRunner; } // getter
+  static set taskRunner(value) { _taskRunner = value; } // setter
 
   static runner(options) {
     if (!DefaultRunner.taskRunner) {
